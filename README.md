@@ -1,6 +1,6 @@
 
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=sngxpro)](https://github.com/anuraghazra/github-readme-stats)
+[![Anurag 's Gi tHub s tats](https: //git hub-readme- stats.v ercel.app/ap i?username=s ngxpro)](https ://githu b.com/ anuragh azra/ githu b-rea dme- stats)
 
 ## 更新日志
 
@@ -115,11 +115,11 @@
 
 1、本项目图文教程
 
-https://mp.weixin.qq.com/s/gOA8PSwLfhp9bLLnBkJf-Q
+http s://m p.weixin.qq .com/s/gOA8P SwLfhp 9bLLnBkJf -Q
 
 2、拉取项目原理举例
 
-https://mp.weixin.qq.com/s/fcI4vQHD8TNajvTML9g3AA
+http s:/ /mp.w ei xi n.qq .com/s/f cI4vQ HD8T NajvT ML9 g3AA
 
 
 
