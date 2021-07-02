@@ -1,4 +1,4 @@
-name: Ariszy-Private-Script
+name: Ariszy-sync
 on:
   schedule:
     - cron: '1 */3 * * *'
@@ -6,7 +6,7 @@ on:
   watch:
     types: started
   repository_dispatch:
-    types: Ariszy-Private-Script-GithubSync
+    types: sync-Ariszy-script
 jobs:
   repo-sync:
     env:
@@ -18,11 +18,11 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: sync Ariszy-Private-Script-GithubSync
+      - name: sync Ariszy-script
         uses: repo-sync/github-sync@v2
         if: env.PAT
         with:
-          source_repo: "https://github.com/Ariszy/Private-Script.git"
+          source_repo: "https://github.com/Ariszy/script.git"
           source_branch: "main"
           destination_branch: "Ariszy"
           github_token: ${{ secrets.PAT }}
