@@ -23,6 +23,6 @@ jobs:
         if: env.PAT
         with:
           source_repo: "https://github.com/Ariszy/script.git"
-          source_branch: "main"
+          source_branch: "testing"
           destination_branch: "Ariszy"
           github_token: ${{ secrets.PAT }}
